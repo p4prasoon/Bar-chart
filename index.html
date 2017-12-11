@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="barchart">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Crypto Exchange Rates</title>
+
+    <link rel="stylesheet" type="" href="./bootstrap-3.3.6-dist/css/bootstrap.min.css">
+
+    <script src="./node_modules/angular/angular.min.js"></script>
+    <script src="./node_modules/chart.js/dist/Chart.min.js"></script>
+    <script src="./node_modules/angular-chart.js/dist/angular-chart.js"></script>
+    <script src="app.js"></script>
+
+
+</head>
+
+<body ng-controller="MainCtrl" id="testApp" ng-cloak>
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <div class="panel-title text-center">Exchange rate of crypto currencies</div>
+        </div>
+        <div class="panel-body container-fluid">
+            <section>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <section>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <canvas id="bar" class="chart chart-bar" chart-data="data" chart-labels="labels">
+                                    </canvas>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
