@@ -1,0 +1,20 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "node": {
+    "child_process": "empty"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.5.7",
+    "angular-chart.js": "^1.1.1",
+    "chart.js": "^2.6.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}
